@@ -1,11 +1,18 @@
 import React from 'react';
+import Banner from './apps/Banner/Banner';
+import Stats from './Stats';
+import TrendingApps from './TrendingApps';
+import { useLoaderData } from 'react-router';
 
-const homepage = () => {
+const Homepage = () => {
+    const data = useLoaderData()
     return (
-        <div>
-            home
-        </div>
+        <>
+            <Banner></Banner>
+            <Stats></Stats>
+            <TrendingApps></TrendingApps>
+        </>
     );
 };
 
-export default homepage;
+export default Homepage;
