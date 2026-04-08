@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from "react";
+
 import { GridLoader } from "react-spinners"
 
 import useApps from "../../../hooks/useApps";
 import AppCard from "../../../components/ui/AppCard";
 
 const Apps = () => {
+
   const { apps, loading } = useApps();
 
   console.log(apps, loading);
@@ -14,8 +15,7 @@ const Apps = () => {
       <div className="mb-12 text-center max-w-[50%] mx-auto">
         <h2 className="font-bold text-4xl">All apps</h2>
         <p className="text-gray-600">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
-          reiciendis eos laborum tempore quis hic quod cupiditate, consequuntur
+          Explore All Apps on the Market developed by us. We code for Millions
         </p>
       </div>
 

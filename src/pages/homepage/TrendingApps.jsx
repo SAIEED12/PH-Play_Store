@@ -1,4 +1,3 @@
-import React, { use, useEffect, useState } from "react";
 import { FaDownload, FaStar } from "react-icons/fa";
 
 import { GridLoader } from "react-spinners";
